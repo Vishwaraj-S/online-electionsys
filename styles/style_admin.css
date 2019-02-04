@@ -1,0 +1,188 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+}
+
+p {
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+.pic {
+	background-image: url("admin.jpg");
+	background-position:center;
+	height: 100%;
+	background-repeat: no-repeat;
+	//margin-top:-20px;
+	background-size: cover;
+}
+.header {
+	//font-family: 'Fredericka the Great', cursive;
+	//font-family: 'Bungee Inline', cursive;
+	//font-family: 'Berkshire Swash', cursive;
+	//font-family: 'Limelight', cursive;
+	//font-family: 'Monoton', cursive;
+	margin-top: 15px;
+	height: 90px;
+	background-color: rgb(255,255,255);
+	//background-color:black;
+	color: rgb(244, 66, 83);
+	text-align: center;
+	line-height:86px;
+	font-size:42px;
+	//letter-spacing:3px;
+	border-bottom: 2px solid rgb(244, 66, 83);
+	//text-shadow: 5px 2px black;
+	//text-shadow: 3px 1px black;
+	margin-left: 41px;
+	margin-right: 41px;
+    font-family: 'Poiret One', cursive;
+}
+
+ .link {
+	 margin-left: 40px;
+	 width: 20%;
+	 display: inline-block;
+	 height: 90%;
+	 background-color: rgba(244,66,83,0.4);
+	 vertical-align: top;
+	 border: 1px solid black;
+ }
+ 
+ .vl {
+	 width: 3px;
+	 display: inline-block;
+	 height: 90%;
+	 background-color: rgb(244,66,83);
+	 margin-left:10px;
+ }
+ 
+ .body {
+	 margin-left: 10px;
+	 width: 71.7%;
+	 display: inline-block;
+     height: 90%;
+	 background-color: rgba(244,66,83,0.4);
+	 border: 1px solid black;
+	 vertical-align: top;
+ }
+ 
+ .tab {
+	 text-decoration: none;
+	 display: block;
+	 color: black;
+	 font-size: 20px;
+	 margin: 0px 10px;
+	 margin-top: 25px;
+	 text-align:center;
+	 padding-top:15px;
+	 padding-bottom: 15px;
+	 border: 1px solid white;
+	 -webkit-transition: 0.3s;
+ }
+
+ .tab:hover {
+	 margin-left: 0px;
+	 margin-right: 0px;
+	 background-color: rgb(244,66,83);
+	 color: white;
+ }
+ 
+ .field {
+	 width: 200px;
+	 height: 45px;
+	 display: block;
+	 font-size: 15px;
+	 margin: 50px auto;
+	 padding-left: 10px;
+	 -webkit-transition: 0.5s;
+	 outline: none;
+	 border: 2px solid #ccc;
+ }
+ 
+ .field:focus {
+	width: 250px;
+	border: 2px solid #555;
+}
+ 
+ .button {
+	 display: block;
+	 border: none;
+	 //margin-top: 20px;
+	 margin: 20px auto;
+	 font-size: 20px;
+	 padding: 5px 10px;
+	 background-color:rgba(244,66,83,0.7);
+	 border-radius:4px;
+	 color: white;
+ }
+ .button:hover{
+	 background-color:rgb(244,66,83);
+ }
+ 
+ .textarea {
+	 margin-top: 50px;
+	 width: 400px;
+	 height: 120px;
+ }
+ 
+ .opt {
+	 width: 210px;
+	padding: 10px 10px;
+	outline: none;
+	border: 2px solid #ccc;
+	margin: 25px auto;
+	margin-left:130px;
+ }
+ 
+ .rfield {
+	 width: 200px;
+	 height: 45px;
+	 display: inline-block;
+	 font-size: 15px;
+	 margin-top: 25px;
+	 margin-left: 150px;
+	 padding-left: 10px;
+	 -webkit-transition: 0.5s;
+	 outline: none;
+	 border: 2px solid #ccc;
+ }
+ 
+ .rfield:focus {
+	border: 2px solid #555;	 
+ }
+ 
+ .bullet {
+	 font-size: 15px;
+ }
+ 
+ .inner_left,.inner_right{
+	 display: inline-block;
+	 height: 100%;
+	 width: 49%;
+	 vertical-align: top;
+ }
+ .inner_center {
+	 display: inline-block;
+	 background-color: black;
+	 height: 100%;
+	 width: 0px;
+	 margin: 0px 3px;
+ }
+ ::-webkit-scrollbar {
+	 width: 5px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+	 
+    background:white; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 2px;
+}
